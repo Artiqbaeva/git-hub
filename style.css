@@ -15,8 +15,13 @@ body {
 }
 a {
   text-decoration: inherit;
+  color: #B45F4D;
 }
-.navbar__text h2 {
+li{
+  list-style: none;
+  
+}
+.navbar h2 {
   text-align: center;
   background: #b36050;
   color: #fff;
@@ -24,13 +29,21 @@ a {
   font-size: 17px;
   padding: 15px;
 }
-.navbar_collection {
-  height: 116px;
+.navbar_collection{
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.list_item_collection{
+  display: flex; 
   gap: 50px;
-  list-style: none;
-  justify-content: space-around;
+}
+.frame_icon{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 10px;
 }
 .dae_main img {
   width: 100%;
@@ -64,6 +77,11 @@ a {
   background: #b45f4d;
   color: #fff;
   border: none;
+  transition: .7s;
+}
+.main button:hover{
+  background: #fff;
+  color: #b45f4d ;
 }
 .bottle_main {
   margin-bottom: 30px;
